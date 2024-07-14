@@ -1,13 +1,22 @@
 # Image_modeling
 
 # Step 1 
-# image collecting and store to datasets collection
-  run python Train_Model.py
+# Image Collecting and Store to Datasets Collection
+  run python Collecting_datas.py
 
 # Step 2 
-# saving the preprocess data 
+# Saving the Preprocess Data 
   run python process.py
+  executed file name is preprocessed_data.pkl
 
 # Step 3 
-# creating an model using the collected datasets
+# Creating an Model using the Collected Datasets
+  run python NeuralNetworkModel.py
+  executed model file name is image_classification_model.h5
   
+# Step 4 
+# Finally run the main script for verifying the faces and identify by the data model
+   run python realtime_labeling.py
+
+if any unknown person is capture to store in the captured_faces sub folder
+   
