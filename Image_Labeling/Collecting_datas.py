@@ -4,7 +4,7 @@ import cv2
 
 # Parameters
 labels = ['class_0', 'class_1']  # Change according to your classes
-num_images_per_class = 100  # Number of images to capture per class
+num_images_per_class = 1000  # Number of images to capture per class
 
 # Create directories for datasets and labels
 dataset_dir = 'datasets'
